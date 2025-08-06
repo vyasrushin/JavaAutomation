@@ -1,0 +1,9 @@
+<suite name="DemoQA Web Table Suite" parallel="false">
+	<parameter name="browser" value="firefox"/>
+	<parameter name="appUrl" value="https://demoqa.com/webtables"/>
+    <test name="WebTableTests">
+        <classes>
+            <class name="tests.WebTablesTests"/>
+        </classes>
+    </test>
+</suite>

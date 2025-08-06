@@ -1,0 +1,6 @@
+base\BaseTest.class
+tests\WebTablesTests.class
+utils\TestDataUtil.class
+pages\WebTablePage.class
+listeners\TestListener.class
+utils\ScreenshotUtil.class
