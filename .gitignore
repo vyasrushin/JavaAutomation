@@ -1,20 +1,28 @@
-# Ignore screenshots
-/screenshots/
-
-# Ignore IDE and OS files
+# Ignore compiled class files
 *.class
+
+# Ignore logs
 *.log
-*.DS_Store
+/logs/
+/target/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore screenshots and test reports
+/screenshots/
+/test-output/
+/allure-results/
+/test-results/
+/reports/
+
+# Ignore IDE/project files
 *.iml
-*.swp
-
-# Ignore target folder (Maven)
-target/
-
-# Ignore test output
-test-output/
-
-# Ignore config or user-specific files
 .idea/
 .vscode/
-*.json
+*.swp
+
+# Ignore environment/config files (optional)
+*.env
+config.properties
